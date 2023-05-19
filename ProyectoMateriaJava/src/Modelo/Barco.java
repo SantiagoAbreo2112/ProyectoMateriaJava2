@@ -20,4 +20,20 @@ public class Barco extends Vehiculo {
                 ", manga='" + manga + '\'' +
                 '}';
     }
+
+    public double getEslora() {
+        return eslora;
+    }
+
+    public void setEslora(double eslora) {
+        this.eslora = eslora;
+    }
+
+    public double getManga() {
+        return manga;
+    }
+
+    public void setManga(double manga) {
+        this.manga = manga;
+    }
 }
